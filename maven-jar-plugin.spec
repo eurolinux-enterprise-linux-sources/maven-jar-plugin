@@ -1,6 +1,6 @@
 Name:           maven-jar-plugin
 Version:        2.4
-Release:        7%{?dist}
+Release:        8%{?dist}
 Summary:        Maven JAR Plugin
 
 License:        ASL 2.0
@@ -57,6 +57,9 @@ sed -i -e "s|plexus-container-default|plexus-container|g" pom.xml
 %doc LICENSE NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.4-8
+- Mass rebuild 2013-12-27
+
 * Fri Aug 16 2013 Stanislav Ochotnicky <sochotnicky@redhat.com> - 2.4-7
 - Migrate away from mvn-rpmbuild (#997439)
 
